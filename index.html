@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>My Text Area</title>
+</head>
+<body>
+    <div class="container">
+        <h4>My Text Area</h4>
+    <form >
+    <textarea name="textarea" class="mytxt" cols="45" rows="10"
+        onkeydown="textCount(this.form.textarea, this.form.countData);" 
+        onkeyup="textCount(this.form.textarea, this.form.countData);" placeholder="Type here"></textarea>
+        <br>
+        <input readonly type="text" class="mytxt" size="3" maxlength="3" name="countData" value="500" ><h5>More words Can Type</h5>
+    </form>
+</div>
+    <script src="index.js"></script>
+</body> 
+
+</html>

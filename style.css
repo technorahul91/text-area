@@ -1,0 +1,29 @@
+*{
+    margin: 0%;
+    padding: 2%;
+    box-sizing: border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+}
+
+body{
+    
+    display: flex;
+    align-items:center;
+    justify-content: left;
+    height: 100vh;
+    background: linear-gradient(#c97e67,#4dd4ac);
+}
+
+.container{
+    width: 470px;
+    background: rgba(166, 172, 74, 0.867)
+}
+
+.container h4{
+    color:#6d152b;
+}
+
+.mytxt{
+    background-color: #d6a164;
+    border-radius: 15px;
+}
