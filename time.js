@@ -6,18 +6,18 @@ setInterval(() => {
     let mins = date.getMinutes();
     let sec = date.getSeconds();
     if (hours < 10) {
-        hours = "0" + hours;
+        hours = `0${hours}`;
     }
 
     if (mins < 10) {
-        mins = "0" + mins;
+        mins = `0${mins}`;
     }
 
     if (sec < 10) {
-        sec = "0" + sec;
+        sec = `0${sec}`;
     }
 
-    time.textContent = hours + ":" + mins + ":" + sec;
+    time.textContent =  `${hours}:${mins}:${sec}`  ;
 }
 
 )
