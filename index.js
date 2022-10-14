@@ -1,3 +1,4 @@
+import setInterval from "./time.js";
 var maxNum = 500;
 function textCount(textField, showCount) {
     if (textField.value.length > maxNum) {
